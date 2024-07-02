@@ -1,0 +1,114 @@
+nav{
+    white-space: nowrap;
+}
+nav li{
+    display: inline-block;
+}
+.aheader{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 60px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.carrinho img{
+    width: 50%;
+}
+
+.carrinho{
+    width: 5%;
+}
+
+nav ul{
+    margin-top: 50px;
+    padding-left: 0;
+}
+nav li a:hover{
+    color: rgb(255, 163, 163);
+}
+
+.header{
+    background-color: rgb(125, 78, 52);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display:none;
+}
+@media (max-width: 1000px){
+    .header{
+        padding-left: 10px;
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: 40% 60% ;
+    }
+    .header-logo{
+        width: 6em;
+        float: none;
+    }
+    .logo{
+        width: 6em;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    nav li a{
+        color: white;
+        text-decoration: none;
+        padding-right: 70px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    nav li a{
+        color: white;
+        text-decoration: none;
+        padding-right: 50px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .nav-header{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        float:right;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        margin-top: 8%;
+        height: 40px;
+    }
+    .mobile-menu-icon button img{
+        height: 50px;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .nav-item a{
+        text-decoration: none;
+        color: white;
+    }
+    .open{
+        display: block;
+    }
+} 

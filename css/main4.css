@@ -1,0 +1,114 @@
+@font-face {
+    font-family: MedievalSharp;
+    src: url(../MedievalSharp/MedievalSharp-Regular.ttf);
+}
+.alterar-letra{
+    font-family: 'MedievalSharp';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.tamanho{
+    font-size: 10px;
+}
+main{
+    flex-grow: 1;
+}
+.header-logo{
+    width: 6em;
+    float: right;
+    margin-right: 20%;
+}
+.logo{
+    width: 100%;
+}
+.carrossel-imagem{
+    width:100%;
+}
+.imagem-2{
+    width: 100%;
+}
+#abaixo-carrossel{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#abaixo-abaixo-carrossel{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.imagem-3{
+    width: 45%;
+}
+#Cadeira-simples-e-Texto{
+    margin-left: 10%;
+}
+#Cadeira-simples-e-Texto-abaixo-abaixo{
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.embaixo-cadeira-Texto{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10%;
+}
+#cadeira-da-listagem{
+    width: 100%;
+}
+.Terceira-div-homepage{
+    margin-top: 5%;
+}
+.Terceira-div-homepage ul{ 
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form-detalhe{
+    padding: 0;
+
+}
+.divs-da-listagem{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    color: black;
+    padding-top: 10%;
+}
+.divs-da-listagem:hover{
+    text-decoration: underline;
+}
+#hover-pra-cadeira-de-graca{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hover-pra-cadeira-de-graca-branco{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.5rem;
+
+}
+.tirar-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+
+.quero{
+    padding-top: 20px;
+}
+@media (max-width: 1000px){
+    #abaixo-carrossel{
+        padding-left: 1em;
+    }
+    #abaixo-carrossel{
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,101 @@
+p{
+    margin: 0;
+}
+.formizinho{
+    padding: 2px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(101, 55, 28);
+    box-shadow: 0px 0px 10px 0px rgb(193, 193, 193);
+    border-radius: 5px;
+}
+.dentro-box{
+    margin: 0 auto;
+    margin-top: 15px;
+    width:170px
+}
+label{
+    margin-top: 10%;
+    color: rgb(199, 153, 128);
+}
+.espaçamento{
+    margin-top: 10px;
+}
+
+#eliminar-form{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 0px rgb(193, 193, 193);
+    border-radius: 5px;
+}
+
+.alterar-botao{
+    margin-top: 8%;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+.alterar-botao-moveis{
+    margin-top: 3%;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 30%;
+    height: 35px;
+    margin-left: 10%;
+}
+.alterar-botao-Emoveis{
+    margin-top: 3%;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 30%;
+    height: 35px;
+}
+.alterar-botao-Emoveis:hover{
+    background-color: rgb(113, 83, 66);
+    cursor: pointer;
+    color: white;
+}
+#alterar-botao-pesquisar{
+    margin-top: 3%;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 80px;
+}
+#alterar-botao-pesquisar:hover{
+    background-color: rgb(101, 55, 28);
+    color: white;
+    cursor: pointer;
+}
+
+#margem-10{
+    margin-left: 10%;
+}
+
+h1{
+    color: rgb(241, 241, 241);
+}
+input{
+    border-radius: 2px;
+}
+
+.alterar-botao:hover{
+    background-color: rgb(101, 55, 28);
+    color: white;
+    cursor: pointer;
+}
+
+.alterar-botao-moveis:hover{
+    background-color: rgb(101, 55, 28);
+    color: white;
+    cursor: pointer;
+}
